@@ -1,0 +1,78 @@
+body {
+    margin-right: 15%;
+    margin-left: 15%;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-position: 25% 25%;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#zawartosc{
+	background-color: rgba(50,50,50,0.7);
+    height: 100%;
+}
+
+#obrazek{
+    display: block;
+    margin: auto;
+    border:1px solid black;
+    width: 15em;
+    height: 15em;
+    text-align: center;
+}
+
+video{
+    display: block;
+    margin: auto;
+    text-align: center;
+	width: 90%;
+	height: 90%;
+	z-index: 5;
+}
+
+h1{
+	font: normal normal bold 76px/1 "rationale", Helvetica, sans-serif;
+	color: rgba(255,255,255,1);
+	text-align: center;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	letter-spacing: 5px;
+	text-shadow: 4px 4px 6px rgba(0,0,0,0.5) , 1px 1px 0 rgba(0,0,0,0.25) , 1px 1px 2px rgba(0,0,0,0.5) , 4px 4px 6px rgba(0,0,0,0.5) ;
+	-webkit-filter: blur(0px);
+	-moz-filter: blur(0px);
+	-o-filter: blur(0px);
+	-ms-filter: blur(0px);
+	filter: blur(0px);
+}
+
+h2{
+	font: normal normal bold 35px/1 "rationale", Helvetica, sans-serif;
+	color: rgba(255,255,255,1);
+	text-align: center;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	text-shadow: 4px 4px 6px rgba(0,0,0,0.5) , 1px 1px 0 rgba(0,0,0,0.25) , 1px 1px 2px rgba(0,0,0,0.5) , 4px 4px 6px rgba(0,0,0,0.5) ;
+}
+
+/* unvisited link */
+a:link {
+	color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: white;
+    text-decoration: none;
+}
+
+a:hover {
+	color: lavender;
+	text-decoration: none;
+}
