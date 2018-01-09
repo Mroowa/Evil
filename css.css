@@ -22,8 +22,8 @@ body {
     display: block;
     margin: auto;
     border:1px solid black;
-    width: 15em;
-    height: 15em;
+    max-height: 20vh;
+    max-width: 20vw;
     text-align: center;
 }
 
